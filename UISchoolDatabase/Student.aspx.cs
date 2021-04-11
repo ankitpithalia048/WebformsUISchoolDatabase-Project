@@ -57,8 +57,8 @@ namespace UISchoolDatabase
                 lblError.Text = "Please Enter All the details";
             }
             else
-            { 
-
+            {
+                lblError.Text = "";
                 lblSuccess.Text = "Student Registered Successfully...." ;
                
             }

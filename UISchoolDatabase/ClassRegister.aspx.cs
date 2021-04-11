@@ -24,6 +24,7 @@ namespace UISchoolDatabase
             }
             else
             {
+                lblClassError.Text = "";
                 lblClassSuccess.Text = "Class Registered Successfully....";
             }
         }
